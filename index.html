@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questions</title>
+</head>
+<body>
+    <style>
+        .container{
+            width: 1200px;
+            margin: 0 auto;
+        }
+    </style>
+
+    <main>
+        <div class="container">
+            <h1>Questions</h1>
+
+            <div id="result"></div>
+            <div id="percent"></div>
+
+            <form name="quizeForm" onsubmit="checkAnswer(event)">
+                <h2>What is the capital of Canada ?</h2>
+                <input type="radio" name="q1" id="q1a" value="a">
+                <label for="q1a">a. Ottava</label>
+                <br>
+                <input type="radio" name="q1" id="q1b" value="b">
+                <label for="q1b">b. USA</label>
+                <br>
+                <input type="radio" name="q1" id="q1c" value="c">
+                <label for="q1c">c. Uzbekistan</label>
+                <br>
+                <input type="radio" name="q1" id="q1d" value="d">
+                <label for="q1d">d. Brasilia</label>
+
+                <h2>What is the capital of Uzbekistan ?</h2>
+                <input type="radio" name="q2" id="q2a" value="a">
+                <label for="q2a">a. Tashkent</label>
+                <br>
+                <input type="radio" name="q2" id="q2b" value="b">
+                <label for="q2b">b. Tadjikistan</label>
+                <br>
+                <input type="radio" name="q2" id="q2c" value="c">
+                <label for="q2c">c. Canada</label>
+                <br>
+                <input type="radio" name="q2" id="q2d" value="d">
+                <label for="q2d">d. Afganistan</label>
+                <br>
+                <br>
+                <button type="submit">Check Answer</button>
+            </form>
+        </div>
+    </main>
+    
+
+    <script src="./script.js"></script>
+</body>
+</html>
